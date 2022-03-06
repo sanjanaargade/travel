@@ -1,0 +1,43 @@
+@charset "UTF-8";	
+
+body {
+    color: #191919;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    background-image: url(../super_fan_page/bokeh.jpg);
+    background-size: cover;
+ }
+
+#container {
+	width: 768px;
+	height: auto;
+	background-color: rgba(255,255,255,1.00);
+		
+}
+/*Float the Aside so it desplay next to Main.*/
+aside {
+    width: 150px;
+    height: 600px;
+    float: left;
+}
+
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url(file:///Macintosh%20HD/Users/sargade2805/Creative%20Cloud%20Files/header.jpg);
+	}
+
+/*Float the Main so it showsup next to the Aside. Reduce width by 150px so they both line header. */
+main {
+    width: 618px;
+    height: 600px;
+    float: left;
+}
+
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;	
+}

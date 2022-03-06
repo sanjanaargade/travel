@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+body {
+	color: #201E1E;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	background-image: url("images/neutralminimal.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
+#container {
+    width: 768px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+aside {
+    width: 150px;
+    height: 600px;
+    background-color: #D7C8B5;
+    float: left;
+    /* [disabled]background-repeat: no-repeat; */
+}
+
+
+header {
+	width: 768px;
+	height: 250px;
+	margin: auto;
+	background-image: url(images/header.jpg);
+}
+
+main {
+	width: 598px;
+	height: 1600px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-color: #FFFFFF;
+}
+
+h1 {
+    color: #F1E3DA;
+    font-family: politica, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24pt;
+}
+p{
+	font-family: canada-type-gibson,sans-serif;
+	font-weight: 400;
+	 font-style: normal;
+}
+
+h3 {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    /* [disabled]background-color: #757A80; */
+}
+
+
+
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+article {
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin: 0px 60px 0px 0px;
+    width: 80px;
+    font-family: neonoir, sans-serif;
+    font-size: 17px
+}
+#container nav ul {
+    margin: auto;
+    width: 565px;
+}
+
+nav a:link {
+    color: #D4D2C3;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #5F2575;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #D7D4CF;
+    padding: 10px;
+    border-radius: 20px;
+}
+nav a:active {
+    color: #191919;
+    text-decoration: none;
+}
+
+.submit_btn {
+    width: 160px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(215,200,181,1.00);
+    color: rgba(250,250,250,1.00);
+    font-size: 15px;
+   
+}
+
+.submit_btn:hover {
+	 -webkit-box-shadow: 5px 5px 35px 1px rgba(0,0,0,1.00);
+    box-shadow: 5px 5px 35px 1px rgba(0,0,0,1.00);
+}
